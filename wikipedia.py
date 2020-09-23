@@ -62,3 +62,6 @@ def NWD(terms = ['blue', 'green'], serverType = 'wikipedia'):
     nwd = (log2(max(fw)) - log2(fX)) / (log2(N) - log2(min(fw)))
     
     return nwd
+
+if __name__ == "__main__":
+    print(NWD())
